@@ -459,7 +459,7 @@ div{
 }
 
 .q-bg-blue{
-  background: rgb(8,18,40);
+  /* background: rgb(8,18,40); */
 }
 
 .q-nav-content{
@@ -541,4 +541,18 @@ div{
 }
 .q-head-nav:last-child{
   border-right: none;
+}
+
+
+.q-relative{
+  position: relative;
+}
+
+.q-banner-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
